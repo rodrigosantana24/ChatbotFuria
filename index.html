@@ -4,27 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Furia Sports</title>
 </head>
 <body>
     
     <header class="toolbar">
-        <div class="logo">
+        <div class="logo-name">
             <img src="assets/icon1.png" alt="Logo FURIA" class="logo-img">
             FURIA SPORTS
         </div>
     </header>
-  
 
-    <div>
-        <h1 class="titulo-div">Bem-vindo ao mundo FURIA. O jogo começa aqui.</h1>
-        <link rel="stylesheet" href="style.css">
+    <div class="slider">
+
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <div class="slide first">
+                <img src="assets/image4.jpg" alt="imagem 1" />
+            </div>
+
+            <div class="slide">
+                <img src="assets/image1.jpg" alt="imagem 1" />
+            </div>
+            
+            <div class="slide">
+                <img src="assets/image5.jpg" alt="imagem 1" />
+            </div>
+            
+            <div class="slide">
+                <img src="assets/image3.jpg" alt="imagem 1" />
+            </div>
+            
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+
     </div>
-
-    <header class= "header">
-        <img src="assets/logo-furia.jpg" class="logo">
-        <link rel="stylesheet" href="style.css">
-    </header>
 
     <main>
         <div>
@@ -34,6 +66,8 @@
         </div>
     </main>
 
+    <script src="script.js"></script>
+    
 </body>
 
 </html>
